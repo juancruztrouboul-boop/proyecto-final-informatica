@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyecto integrador de contenidos de tecnología, informática y desarrollo web.">
+  <title>Conectados | Tecnología e Internet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="inicio">
+    <a class="logo" href="#inicio">C<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav id="navMenu" class="nav">
+      <a href="#internet">Internet</a><a href="#web">Desarrollo web</a><a href="#seguridad">Seguridad</a><a href="#comunicacion">Comunicación</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">PROYECTO INTEGRADOR · INFORMÁTICA</p>
+        <h1>El mundo digital<br><span>está conectado.</span></h1>
+        <p>Un recorrido por Internet, el desarrollo de páginas web, la seguridad informática y las tecnologías que nos comunican.</p>
+        <a class="cta" href="#internet">Explorar contenidos <span>→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="core">&lt;/&gt;</div><i class="node node-a">HTML</i><i class="node node-b">CSS</i><i class="node node-c">JS</i></div>
+    </section>
+    <section class="intro section" id="internet">
+      <p class="eyebrow">01 / INTERNET</p><h2>Una red que conecta al mundo</h2>
+      <div class="cards three">
+        <article class="card"><div class="number">01</div><h3>Historia de Internet</h3><p>Internet nació como un proyecto de comunicación entre computadoras y fue creciendo hasta convertirse en una red mundial que permite compartir información.</p></article>
+        <article class="card"><div class="number">02</div><h3>Protocolos</h3><p>Los protocolos son reglas que permiten que los dispositivos se comuniquen. Algunos ejemplos son TCP/IP, HTTP, HTTPS, FTP y DNS.</p></article>
+        <article class="card"><div class="number">03</div><h3>Navegadores</h3><p>Los navegadores permiten acceder a sitios web. Entre los más conocidos están Google Chrome, Mozilla Firefox, Microsoft Edge y Safari.</p></article>
+      </div>
+    </section>
+    <section class="section web-section" id="web">
+      <p class="eyebrow">02 / DESARROLLO WEB</p><h2>¿Cómo se construye una página?</h2><p class="section-lead">HTML organiza el contenido, CSS define su apariencia y JavaScript agrega interacción.</p>
+      <div class="code-cards">
+        <article class="code-card"><span class="tag html">HTML</span><h3>Estructura</h3><p>Define títulos, párrafos, imágenes, enlaces, listas y secciones.</p><code>&lt;h1&gt;Hola mundo&lt;/h1&gt;</code></article>
+        <article class="code-card"><span class="tag css">CSS</span><h3>Diseño</h3><p>Controla colores, fuentes, tamaños, espacios y adaptación a pantallas.</p><code>h1 { color: blue; }</code></article>
+        <article class="code-card"><span class="tag js">JavaScript</span><h3>Interactividad</h3><p>Permite responder a acciones del usuario y modificar el contenido.</p><code>button.addEventListener(...)</code></article>
+      </div>
+      <div class="info-band"><div><h3>Páginas estáticas y dinámicas</h3><p>Una página estática muestra contenido que cambia cuando se modifica su código. Una dinámica puede generar o actualizar información según las acciones del usuario o los datos disponibles.</p></div><div class="mini-browser"><div class="browser-top"><b></b><b></b><b></b></div><div class="browser-lines"><i></i><i></i><i></i><i></i></div></div></div>
+      <div class="accordion-wrap"><h3>Elemento que se expande y contrae</h3><p>Este ejemplo muestra cómo revelar información con un clic.</p><button class="accordion" aria-expanded="false" aria-controls="extraInfo">¿Qué es una etiqueta HTML? <span>＋</span></button><div class="accordion-panel" id="extraInfo" hidden>Una etiqueta HTML es una instrucción que indica qué tipo de elemento forma parte de una página, por ejemplo un título, un párrafo o un enlace.</div></div>
+    </section>
+    <section class="section security" id="seguridad">
+      <p class="eyebrow">03 / SEGURIDAD INFORMÁTICA</p><h2>Proteger nuestros datos también importa</h2>
+      <div class="security-grid"><div><p class="section-lead">El malware es un software malicioso creado para dañar dispositivos, robar información o alterar su funcionamiento.</p><ul class="clean-list"><li><b>Virus:</b> puede infectar archivos y propagarse.</li><li><b>Gusano:</b> se replica y se distribuye por redes.</li><li><b>Troyano:</b> se presenta como un programa legítimo.</li><li><b>Ransomware:</b> bloquea o cifra archivos para exigir un pago.</li><li><b>Spyware:</b> recopila información sin permiso.</li></ul></div><div class="shield"><div class="shield-icon">✓</div><h3>Hábitos seguros</h3><p>Usar contraseñas fuertes, activar la verificación en dos pasos, actualizar los programas y evitar enlaces sospechosos.</p></div></div>
+    </section>
+    <section class="section communication" id="comunicacion">
+      <p class="eyebrow">04 / COMUNICACIÓN</p><h2>Conectividad más allá de los cables</h2>
+      <div class="communication-box"><div class="satellite">◉</div><div><h3>Comunicación satelital</h3><p>Utiliza satélites artificiales para transmitir señales entre lugares distantes. Es útil en zonas rurales, navegación, televisión, telefonía y servicios de emergencia.</p></div></div>
+    </section>
+    <section class="closing"><p class="eyebrow">CONCLUSIÓN</p><h2>La tecnología transforma<br>la forma de aprender y comunicarnos.</h2><p>Comprender cómo funciona Internet y cómo se construye una página web nos permite usar la tecnología de manera más creativa, responsable y segura.</p><a href="#inicio" class="cta light">Volver al inicio ↑</a></section>
+  </main>
+  <footer><span>CON TODO LO APRENDIDO · PROYECTO INTEGRADOR</span><span>HTML · CSS · JAVASCRIPT</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
